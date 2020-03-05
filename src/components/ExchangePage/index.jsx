@@ -591,7 +591,7 @@ export default function ExchangePage({ initialCurrency, sending = false, params 
   function formatBalance(value) {
     return `Balance: ${value}`
   }
-
+ 
   async function onSwap() {
     //if user changed deadline, log new one in minutes
     if (deadlineFromNow !== DEFAULT_DEADLINE_FROM_NOW) {
